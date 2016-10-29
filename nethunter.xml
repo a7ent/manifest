@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+ <!-- remove default android build -->
+ <remove-project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" />
+ <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.0" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+ </project>
+
+  <!-- remove default android terminal for Nethunter Terminal -->
+  <remove-project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
+
+ <!-- nethunter specific apps --> 
+ <project path="packages/apps/Nethunter" name="offensive-security/nethunter-app" remote="github" revision="master" />
+ <project path="packages/apps/Terminal" name="binkybear/Android-Terminal-Emulator" remote="github" revision="nethunter" />
+ <project path="packages/apps/androidVNC" name="binkybear/androidVNC" remote="github" revision="master" />
+ 
+ <!-- system binaries -->
+ <project path="prebuilts/busybox" name="nethunteros/platform_prebuilts_busybox" remote="github" revision="master" />
+ <project path="prebuilts/hidkeyboard" name="nethunteros/platform_prebuilts_hidkeyboard" remote="github" revision="master" />
+
+ <!-- addons -->
+ <project path="packages/apps/F-Droid" name="f-droid/fdroidclient" groups="pdk-fs" remote="github" revision="master" />
+
+</manifest>
