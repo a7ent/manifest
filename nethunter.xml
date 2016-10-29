@@ -8,7 +8,7 @@
  </project>
 
   <!-- remove default android terminal for Nethunter Terminal -->
-  <remove-project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
+  <remove-project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
 
  <!-- nethunter specific apps --> 
  <project path="packages/apps/Nethunter" name="offensive-security/nethunter-app" remote="github" revision="master" />
