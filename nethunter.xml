@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
-  <!-- remove default android terminal for Nethunter Terminal -->
-  <remove-project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
+ <!-- remove default android terminal for Nethunter Terminal -->
+ <remove-project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
 
+ <!-- nethunter vendor prebuilts --> 
+ <project path="vendor/nethunter" name="nethunteros/vendor_nethunter" remote="github" revision="cm-14.1" />
+ 
  <!-- nethunter specific apps --> 
  <project path="packages/apps/Nethunter" name="offensive-security/nethunter-app" remote="github" revision="master" />
  <project path="packages/apps/Terminal" name="binkybear/Android-Terminal-Emulator" remote="github" revision="nethunter" />
