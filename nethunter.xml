@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <!-- remove default android build -->
- <remove-project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" />
- <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.0" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
- </project>
-
   <!-- remove default android terminal for Nethunter Terminal -->
   <remove-project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
 
