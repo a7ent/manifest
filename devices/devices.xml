@@ -15,5 +15,6 @@
  
   <!-- Oppo Common -->
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
 </manifest>
