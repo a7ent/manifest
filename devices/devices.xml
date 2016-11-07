@@ -22,7 +22,7 @@
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
 
   <!-- Nexus 7 (2012) -->
-  <project path="device/asus/grouper" name="nethunteros/android_device_asus_grouper" remote="github" revision="aosp-7.0" />
+  <project path="device/asus/grouper" name="nethunteros/android_device_asus_grouper" remote="github" revision="cm-14.1" />
   <project path="device/asus/tilapia" name="nethunteros/android_device_asus_tilapia" remote="github" revision="aosp-7.0" />
   <project path="kernel/asus/grouper" name="nethunteros/android_kernel_asus_grouper" remote="github" revision="stable"/>
   
