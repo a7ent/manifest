@@ -11,7 +11,7 @@
   <project path="vendor/qcom/binaries" name="proprietary_vendor_qcom_binaries" remote="themuppets" revision="cm-14.1" />
 
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="themuppets" revision="cm-14.1" />
-  <project path="vendor/broadcom" name="proprietary_vendor_boradcom" remote="themuppets" revision="cm-14.1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="themuppets" revision="cm-14.1" />
