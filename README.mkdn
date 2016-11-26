@@ -21,55 +21,62 @@ Please use Ubuntu Server (latest version) for consistency
 ## Setup Envrionment
 
 For fruther instructions see: https://source.android.com/source/initializing.html
-
+```
 sudo apt-get update
 sudo apt install -y openjdk-8-jdk git-core gnupg flex bison gperf build-essential \
 zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
 libgl1-mesa-dev libxml2-utils xsltproc unzip schedtool bc maven
-
+```
 ## NDK SETUP
+```
 mkdir -p /ndk
 cd /ndk
 wget https://dl.google.com/android/repository/android-ndk-r13b-linux-x86_64.zip
 unzip android-ndk-r1*
 echo "export NDK_ROOT=/ndk/android-ndk-r13b/" >> ~/.bashrc
 echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$NDK_ROOT' >> ~/.bashrc
-
+```
 ## GRADLE SETUP (optional)
+```
 curl -s https://get.sdkman.io | bash
 sdk install gradle 3.1
+```
 
-# Install repo
+### Install repo
+```
 mkdir ~/bin
 PATH=~/bin:$PATH
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-
+```
 ### Setup Cache
+```
 echo "export USE_CCACHE=1" >> ~/.bashrc
 echo "export CCACHE_DIR=$HOME/.ccache" >> ~/.bashrc
 source ~/.bashrc
-
+```
 ### Setup git user (Change your name/email)
-
+```
 git config --global user.name "your name" 
 git config --global user.email "yourname@email.com"
-
+```
 ### Sync Repo
-
+```
 mkdir -p /android/system
 cd /android/system
 repo init -u git://github.com/nethunteros/manifest.git -b cm-14.1
 repo sync
-
+```
 ### Special terminal properties
-
+```
 echo "ndk.dir=/ndk/android-ndk-r13b/" > packages/apps/Terminal/local.properties
-
+```
 ### Make the ROM
+```
 cd /android/system
 ccache -M 100G
 source build/envsetup.sh
 lunch
 mka bacon
+```
