@@ -33,7 +33,10 @@
  <project path="prebuilts/busybox" name="nethunteros/platform_prebuilts_busybox" remote="github" revision="master" />
  <project path="prebuilts/hidkeyboard" name="nethunteros/platform_prebuilts_hidkeyboard" remote="github" revision="master" />
 
- <!-- addons -->
+ <!-- application addons -->
  <project path="packages/apps/F-Droid" name="f-droid/fdroidclient" groups="pdk-fs" remote="github" revision="master" />
 
+ <!-- add our icons to desktop -->
+ <remove-project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />  
+ <project path="packages/apps/Trebuchet" name="nethunteros/android_packages_apps_Trebuchet" />
 </manifest>
