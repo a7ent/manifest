@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote fetch="https://github.com/AndDiSa/" name="ads" />
+  
   <!-- TheMuppets -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="themuppets" revision="cm-14.1" />
@@ -9,18 +11,14 @@
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/qcom/binaries" name="proprietary_vendor_qcom_binaries" remote="themuppets" revision="cm-14.1" />
-
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="themuppets" revision="cm-14.1" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="themuppets" revision="cm-14.1" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/nvidia" name="nethunteros/proprietary_vendor_nvidia" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="themuppets" revision="cm-14.1" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="themuppets" revision="cm-14.1" />
-
-  <!-- Unlegacy Vendor 
-  <project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom" remote="github" groups="vendor,broadcom" revision="aosp-7.1" />
-  <project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus" remote="github" groups="vendor,asus" revision="aosp-7.1" />
-  <project path="vendor/invensense" name="Unlegacy-Android/proprietary_vendor_invensense" remote="github" revision="aosp-7.0" />
-  <project path="vendor/nvidia" name="Unlegacy-Android/proprietary_vendor_nvidia" remote="github" revision="aosp-7.0" groups="vendor,nvidia" />  
-  -->
+ 
+ <!-- For Grouper! -->
+ <project path="vendor/asus" name="proprietary_vendor_asus" remote="ads" revision="ads-7.0.1" />
+ <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="ads" revision="ads-7.0.1" />
+ <project path="vendor/elan" name="proprietary_vendor_elan" remote="ads" revision="oct-mm" />
+ <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="ads" revision="ads-7.0.1" />
+ <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="ads" revision="ads-7.0.1" />
+  
 </manifest>
