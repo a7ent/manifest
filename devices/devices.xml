@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!-- Nexus 7 (2013) -->
+  <project path="device/asus/flo" name="nethunteros/android_device_asus_flo" remote="github" revision="cm-14.1" />
+  <project path="kernel/google/msm" name="nethunteros/android_kernel_google_msm" remote="github" revision="cm-14.1" />  
+  
   <!-- Nexus 10 (Manta) -->
   <project path="device/samsung/manta" name="nethunteros/android_device_samsung_manta" remote="github" revision="cm-14.1" />
   <project path="kernel/samsung/manta" name="nethunteros/android_kernel_samsung_manta" remote="github" revision="cm-14.1" />
