@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!-- Nexus 10 (Manta) -->
+  <project path="device/samsung/manta" name="nethunteros/android_device_samsung_manta" remote="github" revision="cm-14.1" />
+  <project path="kernel/samsung/manta" name="nethunteros/android_kernel_samsung_manta" remote="github" revision="cm-14.1" />
+  
   <!-- Nexus 5 (Hammerhead) -->
   <project path="device/lge/hammerhead" name="nethunteros/android_device_lge_hammerhead" remote="github" revision="cm-14.1" />
   <project path="kernel/lge/hammerhead" name="nethunteros/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
