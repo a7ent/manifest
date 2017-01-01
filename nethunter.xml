@@ -35,6 +35,7 @@
 
  <!-- application addons -->
  <project path="packages/apps/F-Droid" name="f-droid/fdroidclient" groups="pdk-fs" remote="github" revision="master" />
+ <project path="packages/apps/Drivedroid" name="nethunteros/android_packages_apps_Drivedroid" remote="github" revision="master" />
 
  <!-- add our icons to desktop -->
  <remove-project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />  
