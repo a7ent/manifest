@@ -15,7 +15,7 @@
  
  <!-- For Grouper! -->
  <project path="vendor/asus" name="Unlegacy-Android/proprietary_vendor_asus" remote="github" groups="vendor,asus" revision="aosp-7.1" />
- <project path="vendor/bn" name="Unlegacy-Android/proprietary_vendor_bn" remote="github" groups="vendor,bn" revision="aosp-7.1" />
+ <project path="vendor/bn" name="Unlegacy-Android/proprietary_vendor_bn" remote="github" groups="vendor,bn" revision="stable" />
  <project path="vendor/broadcom" name="Unlegacy-Android/proprietary_vendor_broadcom" remote="github" groups="vendor,broadcom" revision="aosp-7.1" />
  <project path="vendor/nvidia" name="Unlegacy-Android/proprietary_vendor_nvidia" remote="github" revision="aosp-7.1" />
  <project path="vendor/elan" name="proprietary_vendor_elan" remote="ads" revision="oct-mm" />
