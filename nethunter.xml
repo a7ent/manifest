@@ -9,6 +9,10 @@
   
  <!-- Use our vendor/nethunter instead of vendor/cm -->
  <remove-project path="vendor/cm" name="LineageOS/android_vendor_cm" />
+  
+ <!-- Developer settings is broken for us on LineageOS -->
+ <remove-project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+ <project path="packages/apps/Settings" name="nethunteros/android_packages_apps_Settings" groups="pdk-fs" revision="cm-14.1" />
  
  <!-- Use Nethunter frameworks base so we can play with network settings -->
  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
