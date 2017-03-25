@@ -5,20 +5,20 @@ To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/nethunteros/manifest.git -b cm-14.1
-
+```
+repo init -u git://github.com/nethunteros/manifest.git -b cm-14.1
+```
 Then to sync up:
-
-    repo sync
-    
+```
+repo sync
+``` 
 # Building a Nethunter OS ROM
 
-## OS Used
+### Preferred Build OS
 
 Please use Ubuntu Server (latest version) for consistency
 
-## Setup Envrionment
+### Setup Envrionment
 
 For fruther instructions see: https://source.android.com/source/initializing.html
 ```
@@ -29,7 +29,7 @@ zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 \
 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev ccache \
 libgl1-mesa-dev libxml2-utils xsltproc unzip schedtool bc maven repo
 ```
-## NDK SETUP
+### NDK SETUP
 ```
 mkdir -p /ndk
 cd /ndk
@@ -38,12 +38,17 @@ unzip android-ndk-r1*
 echo "export NDK_ROOT=/ndk/android-ndk-r13b/" >> ~/.bashrc
 echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$NDK_ROOT' >> ~/.bashrc
 ```
-## GRADLE SETUP (optional)
+### Gradle Setup
 ```
 curl -s https://get.sdkman.io | bash
 source "/root/.sdkman/bin/sdkman-init.sh"
-sdk install gradle 3.1
+sdk install gradle 3.3
 ```
+### Install Android SDK
+```
+I need to write instructions for this...for now use google
+```
+
 ### Setup Cache
 ```
 echo "export USE_CCACHE=1" >> ~/.bashrc

@@ -11,8 +11,10 @@
  <remove-project path="vendor/cm" name="LineageOS/android_vendor_cm" />
  
  <!-- Use Nethunter frameworks base so we can play with network settings -->
+ <!--
  <remove-project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
  <project path="frameworks/base" name="nethunteros/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  -->
   
  <!-- Qcom sepolicy needs our path instead of vendor/cm -->
  <remove-project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
