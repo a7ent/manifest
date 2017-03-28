@@ -3,7 +3,7 @@
 
   <!-- Point our /build to /vendor/nethunter instead of /vendor/cm -->
   <remove-project path="build" name="LineageOS/android_build" groups="pdk,tradefed" />
-  <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.1" groups="pdk,tradefed">
+  <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.1-rebase" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
