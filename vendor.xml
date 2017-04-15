@@ -10,7 +10,6 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="themuppets" revision="cm-14.1" />
-  <project path="vendor/qcom/binaries" name="proprietary_vendor_qcom_binaries" remote="themuppets" revision="cm-14.1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="themuppets" revision="cm-14.1" />
  
  <!-- For Grouper! -->
