@@ -42,7 +42,7 @@
  <project path="prebuilts/hidkeyboard" name="nethunteros/platform_prebuilts_hidkeyboard" remote="github" revision="master" />
 
  <!-- application addons -->
- <project path="packages/apps/F-Droid" name="CopperheadOS/platform_external_F-Droid" groups="pdk-fs" remote="github" />
+ <project path="packages/apps/F-Droid" name="CopperheadOS/platform_external_F-Droid" groups="pdk-fs" remote="github" revision="nougat-mr2-release" />
  <project path="packages/apps/FDroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2" />
  <project path="packages/apps/Drivedroid" name="nethunteros/android_packages_apps_Drivedroid" remote="github" revision="master" />
 
