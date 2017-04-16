@@ -42,13 +42,8 @@ echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$NDK_RO
 ```
 curl -s https://get.sdkman.io | bash
 source "/root/.sdkman/bin/sdkman-init.sh"
-sdk install gradle 3.3
+sdk install gradle 3.5
 ```
-### Install Android SDK
-```
-I need to write instructions for this...for now use google
-```
-
 ### Setup Cache
 ```
 echo "export USE_CCACHE=1" >> ~/.bashrc
