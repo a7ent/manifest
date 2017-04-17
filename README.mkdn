@@ -55,12 +55,6 @@ source ~/.bashrc
 git config --global user.name "your name" 
 git config --global user.email "yourname@email.com"
 ```
-### Fix broken CM ssl cert (may only be temp)
-```
-openssl s_client -showcerts -connect maven.cyanogenmod.org:443 > ssl.cyanogenmod.org.crt 
-mv ssl.cyanogenmod.org.crt /usr/local/share/ca-certificates
-update-ca-certificates --fresh 
-```
 ### Sync Repo
 ```
 mkdir -p /android/system
