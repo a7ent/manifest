@@ -33,8 +33,8 @@
  <project path="vendor/nethunter" name="nethunteros/vendor_nethunter" remote="github" revision="cm-14.1" />
  
  <!-- nethunter specific apps --> 
- <project path="packages/apps/Nethunter" name="offensive-security/nethunter-app" remote="github" revision="master" />
- <project path="packages/apps/Terminal" name="binkybear/Android-Terminal-Emulator" remote="github" revision="nethunter" />
+ <project path="packages/apps/Nethunter" name="nethunteros/android_packages_apps_Nethunter" remote="github" revision="master" />
+ <project path="packages/apps/Terminal" name="nethunteros/android_packages_apps_Nethunter_Terminal" remote="github" revision="master" />
  <project path="packages/apps/androidVNC" name="binkybear/androidVNC" remote="github" revision="master" />
  
  <!-- system binaries -->
