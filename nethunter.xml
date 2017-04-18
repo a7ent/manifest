@@ -35,7 +35,7 @@
  <!-- nethunter specific apps --> 
  <project path="packages/apps/Nethunter" name="nethunteros/android_packages_apps_Nethunter" remote="github" revision="master" />
  <project path="packages/apps/Terminal" name="nethunteros/android_packages_apps_Nethunter_Terminal" remote="github" revision="master" />
- <project path="packages/apps/androidVNC" name="binkybear/androidVNC" remote="github" revision="master" />
+ <project path="packages/apps/androidVNC" name="nethunteros/android_packages_apps_Nethunter_VNC  " remote="github" revision="master" />
  
  <!-- system binaries -->
  <project path="prebuilts/busybox" name="nethunteros/platform_prebuilts_busybox" remote="github" revision="master" />
