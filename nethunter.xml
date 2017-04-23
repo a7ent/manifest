@@ -31,7 +31,7 @@
  <remove-project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
 
  <!-- nethunter vendor prebuilts --> 
- <project path="vendor/nethunter" name="nethunteros/android_vendor_cm" remote="github" revision="cm-14.1" />
+ <project path="vendor/cm" name="nethunteros/android_vendor_cm" remote="github" revision="cm-14.1" />
  
  <!-- nethunter specific apps --> 
  <project path="packages/apps/Nethunter" name="nethunteros/android_packages_apps_Nethunter" remote="github" revision="master" />
