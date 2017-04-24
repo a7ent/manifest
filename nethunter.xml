@@ -3,12 +3,11 @@
   
   <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
 
-  <!-- Point our /build to /vendor/nethunter instead of /vendor/cm
   <remove-project path="build" name="LineageOS/android_build" groups="pdk,tradefed" />
-  <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.1-rebase" groups="pdk,tradefed">
+  <project path="build" name="nethunteros/android_build" remote="github" revision="cm-14.1-nh" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  -->
+
   
  <!-- Use our vendor/nethunter instead of vendor/cm -->
  <remove-project path="vendor/cm" name="LineageOS/android_vendor_cm" />
