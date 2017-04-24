@@ -27,7 +27,7 @@
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_smartfren" path="vendor/smartfren" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-14.1"/>
-  <project name="TheMuppets/proprietary_vendor_ti" path="vendor/ti" revision="master" remote="github" revision="cm-14.1"/>
+  <project name="TheMuppets/proprietary_vendor_ti" path="vendor/ti" revision="master" remote="github"/>
   <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_wileyfox" path="vendor/wileyfox" remote="github" revision="cm-14.1"/>
   <project name="TheMuppets/proprietary_vendor_wingtech" path="vendor/wingtech" remote="github" revision="cm-14.1"/>
